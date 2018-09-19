@@ -1,27 +1,26 @@
-valuta=50000
+saldo=5000
 
 print("Det fantastiska bankdank")
 print("========================")
-print("val 1: insättning")
+print("val 1: insattning")
 print("val 2: uttdrag")
-print("val 3: visa saldo")
-print("val 3; avsluta")
+print("val 3: saldo")
+print("val 4; avsluta")
 
-val = int(input("välj ditt val")
+val = int(input("välj ditt val"))
 
-
-if val == 1: 
-insättning =int(input("hur mycket vill du sätta in"))
-valuta= valuta  - insättning
-print("din valuta :", valuta)
+if val == 1:
+    insattning=int(input("hur mycket vill du sätta in"))
+    valuta= valuta  - insattning
+    print("din valuta :", valuta)
 
 elif val ==2: 
         uttdrag =int(input("hur mycket vill du ta ut"))
         valuta= valuta - uttdrag
         print("din valuta:", valuta)
 elif val ==3:
-        saldo= int(input("din saldo "))
+        saldo= int(input("saldo "))
 elif val ==4:
-input("tack för att du använde bankdank")
+    print("tack för att du använde bankdank")
 
 
